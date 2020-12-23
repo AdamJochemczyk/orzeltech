@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="Adam Jochemczyk" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <title>Orzel Tech</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <span class="menu" onclick="openNavigation()">&#9776;</span>
+        <header class="navigation" id="navigation">
+          <nav>
+            <div class="navigation__logo">
+              <h1>Orzel-Tech</h1>
+              <span onclick="closeNavigation()">X</span>
+            </div>
+            <ul>
+              <li class="navigation__link"><a href="#home">Home</a></li>
+              <li class="navigation__link"><a href="#about">About</a></li>
+              <li class="navigation__link">
+                <a href="#industries">Industries</a>
+              </li>
+              <li class="navigation__link">
+                <a href="#materials">Materials & Processes</a>
+              </li>
+              <li class="navigation__link"><a href="#gallery">Gallery</a></li>
+              <li class="navigation__link"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section id="home">
+          <img src="./img/logo.png" alt="" class="home__logo" />
+          <a href="#about" class="home__btn">Find Out More</a>
+        </section>
+        <section id="about">
+          <h1 class="about__title">About us</h1>
+          <p class="about__description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+            nostrum soluta nisi. Tempore, rerum praesentium vero molestiae
+            distinctio ut quod in, iure a nobis ex atque voluptatibus modi
+            voluptatum enim.
+          </p>
+          <h1 class="about__title">Why us?</h1>
+          <p class="about__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            dignissimos rem nihil enim excepturi ullam. Veritatis dolorum magnam
+            alias quibusdam error harum excepturi ullam, repudiandae veniam
+            atque et eveniet autem.
+          </p>
+          <a href="#industries" class="about__btn">What we offer?</a>
+        </section>
+        <section id="industries">
+          <h3 class="key">Key Industries</h3>
+          <h1 class="industries__title">Choose something good for you</h1>
+          <div class="industries__gallery">
+            <a href="#gallery"
+              ><div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </a>
+            <a href="#gallery"
+              ><div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </a>
+            <a href="#gallery"
+              ><div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </a>
+            <a href="#gallery"
+              ><div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section id="materials">
+            <h1 class="materials__title">Materials & Processes</h1>
+            <p style="color: white;">
+                Nie wiadomo co tu bedzie ale taka sekcja ma byc.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In neque officia delectus totam aperiam voluptatibus provident molestias quis libero quos, corporis assumenda amet quia veritatis temporibus itaque corrupti nam explicabo.</p>
+        </section>
+        <section id="gallery">
+          <h1 class="gallery__title">Gallery</h1>
+          <div class="industries__gallery">
+<div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            <div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+<div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+<div class="industries__item">
+                <img src="./img/example.png" alt="example" />
+                <div class="industries__itemDescription">
+                    <h1>Test image</h1>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Nie sprecyzowano jak ma wyglądać jeszcze jakies dane kontaktowe tu moga byc?</p>
+          <form action="">
+            <input type="text" placeholder="tekst wiadomosci"/>
+            <input type="submit" />
+          </form>
+        </section>
+        <footer>
+          <p>Made with love by Adam Jochemczyk</p>
+        </footer>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
